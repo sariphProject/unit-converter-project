@@ -20,8 +20,10 @@ jobs:
         cache: maven
     - name: Clean install Maven
       run: mvn clean install
-    - name: Build with Maven
-      run: mvn -B package -DskipTests --file pom.xml
+    - name: Generate JaCoCo Badge
+      uses: cicirello/jacoco-badge-generator@v2
+      with:
+        generate-branches-badge: true
     - name: Upload JAR
       #This uploads artifacts from your workflow allowing you to share data between jobs and store data once a workflow is complete.
       uses: actions/upload-artifact@v2

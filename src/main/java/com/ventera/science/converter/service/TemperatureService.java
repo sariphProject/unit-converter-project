@@ -1,6 +1,5 @@
 package com.ventera.science.converter.service;
 
-import com.ventera.science.converter.constant.TemperatureConverterConstants;
 import com.ventera.science.converter.model.StudentInputRequest;
 import com.ventera.science.converter.util.TemperatureUtil;
 import org.springframework.stereotype.Service;
