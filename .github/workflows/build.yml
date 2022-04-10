@@ -31,7 +31,7 @@ jobs:
         #Set artifact name
         name: artifact
         #From this path
-        path: target/angular-maven-0.0.1-SNAPSHOT.jar
+        path: target/unit-converter.jar
 
   deploy:
     #Depends on build's job
@@ -57,4 +57,4 @@ jobs:
           environment_name: Springbootdeploy-env
           version_label: ${{github.SHA}}
           region: us-east-1
-          deployment_package: angular-maven-0.0.1-SNAPSHOT.jar
+          deployment_package: unit-converter.jar
