@@ -20,10 +20,6 @@ jobs:
         cache: maven
     - name: Clean install Maven
       run: mvn clean install
-    - name: Run Angular Tests
-      run: |
-        npm install -g @angular/cli
-        ng test
     - name: Generate JaCoCo Badge
       uses: cicirello/jacoco-badge-generator@v2
       with:
