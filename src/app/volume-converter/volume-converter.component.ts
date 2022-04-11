@@ -66,7 +66,6 @@ export class VolumeConverterComponent implements OnInit{
       targetUnitOfMeasure: this.volumeForm.get('targetUnitOfMeasure')?.value
     };
     this.unitConverterService.convertVolume(studentConverterRequest).subscribe(convertedValue => {
-      console.log(convertedValue);
       if(Number(this.volumeForm.get('studentResponse')?.value).toFixed(1) == convertedValue.toFixed(1)) {
         this.volumeForm.get('output')!.setValue('correct');
         this.output = 'correct';

@@ -64,7 +64,6 @@ export class TemperatureConverterComponent implements OnInit{
       targetUnitOfMeasure: this.temperatureForm.get('targetUnitOfMeasure')?.value
     };
     this.unitConverterService.convertTemperature(studentConverterRequest).subscribe(convertedValue => {
-      console.log(convertedValue);
       if(Number(this.temperatureForm.get('studentResponse')?.value).toFixed(1) == convertedValue.toFixed(1)) {
         this.temperatureForm.get('output')!.setValue('correct');
         this.output = 'correct';
