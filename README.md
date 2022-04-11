@@ -44,6 +44,14 @@ The default port is 5000 at the moment in application.yml file.
 ## CI/CD Pipeline
 ![CI/CD Pipeline](/images/cicdPipeline.png?raw=true "CI/CD Pipeline")
 
+## Code Coverage
+
+### Jacoco is used for code coverage for Java Code or Spring Boot, can be found in Jacoco Folder
+   ![Code Coverage Java](/images/codeCoverageJava.png?raw=true "Code Coverage Java")
+
+###Angular has code coverage and can be found in coverage folder
+   ![Code Coverage Angular](/images/codeCoverageAngular.png?raw=true "Code Coverage Angular")
+
 ## Overall Application
 1. The UI is in Angular
 2. When one clicks on the convert button, an API is fired with POST Request
