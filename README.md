@@ -28,6 +28,9 @@ The default port is 5000 at the moment in application.yml file.
 3. Convert Button is disabled until all the validation are validated and correct.
 4. Reset Button will set the all the parameters or reset the form.
 
+== User Interface Images
+![Validation](/images/validation.png?raw=true "Validation")
+![Incorrect Result](/images/incorrectResult.png?raw=true "Incorrect Result")
 ![Correct Result](/images/correctResult.png?raw=true "Correct Result")
 
 == Overall Application
