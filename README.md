@@ -35,7 +35,7 @@ The default port is 5000 at the moment in application.yml file.
 
 
 ## Incorrect Result
-![Incorrect Result](/images/validation.png?raw=true "Incorrect Result")
+![Incorrect Result](/images/incorrectResult.png?raw=true "Incorrect Result")
 
 
 ## Correct Result
