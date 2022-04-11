@@ -35,11 +35,14 @@ The default port is 5000 at the moment in application.yml file.
 
 
 ## Incorrect Result
-![Incorrect Result](/images/incorrectResult.png?raw=true "Incorrect Result")
+![Incorrect Result](/images/validation.png?raw=true "Incorrect Result")
 
 
 ## Correct Result
 ![Correct Result](/images/correctResult.png?raw=true "Correct Result")
+
+## CI/CD Pipeline
+![CI/CD Pipeline](/images/cicdPipeline.png?raw=true "CI/CD Pipeline")
 
 ## Overall Application
 1. The UI is in Angular
