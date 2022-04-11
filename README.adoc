@@ -29,13 +29,13 @@ The default port is 5000 at the moment in application.yml file.
 4. Reset Button will set the all the parameters or reset the form.
 
 == Validation:
-![Alt text](validation.png?raw=true "Validation")
+![Alt text](./validation.png?raw=true "Validation")
 
 == Incorrect Result:
-![Alt text](incorrectResult.png?raw=true "Incorrect Result")
+![Alt text](./incorrectResult.png?raw=true "Incorrect Result")
 
 == Correct Result:
-![Alt text](correctResult.png?raw=true "Correct Result")
+![Alt text](./correctResult.png?raw=true "Correct Result")
 
 == Overall Application
 1. The UI is in Angular
