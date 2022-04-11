@@ -28,15 +28,6 @@ The default port is 5000 at the moment in application.yml file.
 3. Convert Button is disabled until all the validation are validated and correct.
 4. Reset Button will set the all the parameters or reset the form.
 
-== Validation:
-![Validation](https://github.com/sariphProject/unit-converter-project/blob/master/images/validation.png)
-
-== Incorrect Result:
-![Incorrect](https://github.com/sariphProject/unit-converter-project/blob/master/images/incorrectResult.png)
-
-== Correct Result:
-![Correct](https://github.com/sariphProject/unit-converter-project/blob/master/images/correctResult.png)
-
 == Overall Application
 1. The UI is in Angular
 2. When one clicks on the convert button, an API is fired with POST Request
