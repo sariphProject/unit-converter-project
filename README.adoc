@@ -28,7 +28,7 @@ The default port is 5000 at the moment in application.yml file.
 3. Convert Button is disabled until all the validation are validated and correct.
 4. Reset Button will set the all the parameters or reset the form.
 
-![Correct Result](images/correctResult.png?raw=true "Correct Result")
+![Correct Result](/images/correctResult.png?raw=true "Correct Result")
 
 == Overall Application
 1. The UI is in Angular
