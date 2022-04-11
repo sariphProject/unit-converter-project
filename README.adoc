@@ -29,13 +29,13 @@ The default port is 5000 at the moment in application.yml file.
 4. Reset Button will set the all the parameters or reset the form.
 
 == Validation:
-![Validation](/images/validation.png)
+![Validation](https://github.com/sariphProject/unit-converter-project/blob/master/images/validation.png)
 
 == Incorrect Result:
-![Incorrect](/images/incorrectResult.png)
+![Incorrect](https://github.com/sariphProject/unit-converter-project/blob/master/images/incorrectResult.png)
 
 == Correct Result:
-![Correct](/images/correctResult.png)
+![Correct](https://github.com/sariphProject/unit-converter-project/blob/master/images/correctResult.png)
 
 == Overall Application
 1. The UI is in Angular
